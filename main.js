@@ -2,6 +2,17 @@ function somPom() {
 
   document.querySelector('#som_tecla_pom').play();
 }
-document.querySelector('.tecla_pom').addEventListener('click', somPom);
+document.querySelector('.tecla_pom').onclick = somPom;
+
+
+
+
+
+
+
+
+
+
+
 
 
