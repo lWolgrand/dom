@@ -34,6 +34,12 @@ function somToim() {
 }
 document.querySelector('.tecla_toim').onclick = somToim;
 
+function somPsh() {
+
+  document.querySelector('#som_tecla_psh').play();
+}
+document.querySelector('.tecla_psh').onclick = somPsh;
+
 
 
 
