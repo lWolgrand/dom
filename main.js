@@ -40,7 +40,11 @@ function somPsh() {
 }
 document.querySelector('.tecla_psh').onclick = somPsh;
 
+function somTic() {
 
+  document.querySelector('#som_tecla_tic').play();
+}
+document.querySelector('.tecla_tic').onclick = somTic;
 
 
 
