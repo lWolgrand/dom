@@ -10,6 +10,11 @@ function somClap()) {
 }
 document.querySelector('.tecla_clap').onclick = somClap;
 
+function somTim() {
+
+  document.querySelector('#som_tecla_tim').play();
+}
+document.querySelector('.tecla_tim').onclick = somTim;
 
 
 
