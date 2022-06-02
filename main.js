@@ -22,6 +22,12 @@ function somPuff() {
 }
 document.querySelector('.tecla_puff').onclick = somPuff;
 
+function somSplash() {
+
+  document.querySelector('#som_tecla_splash').play();
+}
+document.querySelector('.tecla_splash').onclick = somSplash;
+
 
 
 
