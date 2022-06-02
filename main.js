@@ -28,6 +28,11 @@ function somSplash() {
 }
 document.querySelector('.tecla_splash').onclick = somSplash;
 
+function somToim() {
+
+  document.querySelector('#som_tecla_toim').play();
+}
+document.querySelector('.tecla_toim').onclick = somToim;
 
 
 
