@@ -16,6 +16,14 @@ function somTim() {
 }
 document.querySelector('.tecla_tim').onclick = somTim;
 
+function somPuff() {
+
+  document.querySelector('#som_tecla_puff').play();
+}
+document.querySelector('.tecla_puff').onclick = somPuff;
+
+
+
 
 
 
